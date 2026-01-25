@@ -6,7 +6,7 @@ export default function Hero(){
                 <div>Follow a simple program with guarenteed result</div>
                 <div>Get fit, healthy, strong, and shredded</div>
                 <div>Learn more about the gym, training, and technique</div>
-                <div>Become a divfetime gym bro</div>
+                <div>Become a lifetime gym bro</div>
             </ol>
             <h3>The Rules</h3>
             <p>To complete this program, you <b>MUST</b> follow these 3 simple rules:</p>
@@ -31,7 +31,7 @@ export default function Hero(){
                 85% of your working weight used for your working set
             </small>
             <h3>The Training Plan</h3>
-            <p>This traiing planning uses a structure known as the <b>Bro Split</b>, and follows this rotation⬇️</p>
+            <p>This traiing planning uses a structure known as <b>PPL</b>, and follows this rotation⬇️</p>
             <p><b><i>Push &rarr; Pull &rarr; Legs &rarr; Repeat</i></b></p>
             <p>complete all of the workoutgs below and track your progress along the way</p>
        </>
