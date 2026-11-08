@@ -1,7 +1,50 @@
 # 30Workouts
 
-The 30 Simple Workouts Training Plan. A 30-day push, pull, and legs program built with React.
+A workout tracking application built around the idea of making fitness simple and approachable. 30Workouts brings together a collection of 30 simple workouts in an easy-to-use interface.
 
-- Days unlock in order: finish one to open the next.
-- Log the weight for each exercise; progress is saved in your browser (localStorage).
-- Select the "?" next to an exercise for a short description.
+## Features
+
+- **Workout collection** — Browse a collection of simple workouts.
+- **Workout interface** — View and interact with individual workout cards.
+- **Responsive design** — Interface designed to work across different screen sizes.
+- **Interactive UI** — Component-based interface with dedicated layouts, workout cards, and modals.
+
+## Built With
+
+- React
+- Vite
+- JavaScript
+- CSS
+- HTML
+
+## Running Locally
+
+Requires Node.js.
+
+```bash
+git clone https://github.com/Andy5841/30Workouts.git
+cd 30Workouts
+npm install
+npm run dev
+```
+
+To create and preview a production build:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+
+The application is deployed through Netlify.
+
+**Live Site:** [30workouts.netlify.app](https://30workouts.netlify.app/)
+
+## Repository
+
+[GitHub — Andy5841/30Workouts](https://github.com/Andy5841/30Workouts)
+
+---
+
+Built and maintained by [Andy Huynh](https://github.com/Andy5841).
