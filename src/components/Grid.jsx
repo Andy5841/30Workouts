@@ -53,6 +53,7 @@ export default function Grid(){
                 'Pull' : 
                 'Legs'
 
+                const isComplete = completedWorkouts.includes(`${workoutIndex}`)
                 const trainingPlan = training_plan[workoutIndex]
                 const dayNum = ((workoutIndex / 8) <= 1) ? '0' + (workoutIndex + 1) : workoutIndex + 1
                 const icon = 
@@ -79,7 +80,7 @@ export default function Grid(){
                     <button onClick={() => {
                         if (isLocked) {return}
                         setSelectedWorkout(workoutIndex)
-                    }} className={'card plan-card ' + (isLocked ? 'inactive' : '')} key={workoutIndex}>
+                    }} className={'card plan-card' + (isLocked ? ' inactive' : '') + (isComplete ? ' complete' : '')} aria-disabled={isLocked} key={workoutIndex}>
 
                         <div className='plan-card-header'>
                         <p>Day {dayNum} </p>
@@ -91,6 +92,7 @@ export default function Grid(){
                         <div className='plan-card-header'>
                             <h4><b>{type}</b></h4>
                         </div>
+                        {isComplete && <p className="plan-card-status">Done</p>}
                     </button>
                 )
             })}

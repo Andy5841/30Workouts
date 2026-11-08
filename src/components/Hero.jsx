@@ -3,7 +3,7 @@ export default function Hero(){
         <>
             <h5>Complete this training program if you want to...</h5>
             <ol className="benefits-list"> 
-                <div>Follow a simple program with guarenteed result</div>
+                <div>Follow a simple program with guaranteed result</div>
                 <div>Get fit, healthy, strong, and shredded</div>
                 <div>Learn more about the gym, training, and technique</div>
                 <div>Become a lifetime gym bro</div>
@@ -13,7 +13,7 @@ export default function Hero(){
             <ul className="rules-list">
                 <div className="rule-item">
                     <p><b>Rest</b></p>
-                    <p>Ensure that you are taking rest days where neccesary
+                    <p>Ensure that you are taking rest days where necessary
                     </p>
                 </div>
                 <div className="rule-item">
@@ -31,9 +31,9 @@ export default function Hero(){
                 85% of your working weight used for your working set
             </small>
             <h3>The Training Plan</h3>
-            <p>This traiing planning uses a structure known as <b>PPL</b>, and follows this rotation⬇️</p>
+            <p>This training plan uses a structure known as <b>PPL</b>, and follows this rotation⬇️</p>
             <p><b><i>Push &rarr; Pull &rarr; Legs &rarr; Repeat</i></b></p>
-            <p>complete all of the workoutgs below and track your progress along the way</p>
+            <p>complete all of the workouts below and track your progress along the way</p>
        </>
     )
 }

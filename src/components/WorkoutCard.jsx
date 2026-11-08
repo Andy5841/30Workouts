@@ -75,7 +75,7 @@ export default function WorkoutCard(props){
             <h6 className="weight-input">Max Weight</h6>
             {workout.map((workoutExercise, wIndex) => {
                 return (
-                    <React.Fragment key={workoutIndex}>
+                    <React.Fragment key={wIndex}>
                         <div className="exercise-name">
                             <p>{wIndex + 1}. {workoutExercise.name}</p>
                             <button className="help-icon" onClick={() => {
@@ -99,10 +99,10 @@ export default function WorkoutCard(props){
 
 
         <div className="workout-buttons">
-            <button onClick={() => {
+            <button className="button" onClick={() => {
                 handleSave(workoutIndex, {weights})
             }}>Save & Exit</button>
-            <button onClick={() => {
+            <button className="button button-primary" onClick={() => {
                 handleComplete(workoutIndex, {weights})
             }} disabled={Object.keys(weights).length !== workout.length}>Complete</button>
         </div>

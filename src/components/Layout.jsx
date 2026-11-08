@@ -1,21 +1,20 @@
 export default function Layout(props){
-    
-    const { children } = props 
+
+    const { children } = props
 
     const header = (
         <header>
-            <h1 className="text-gradient">30Workouts</h1>
-            <p><strong>The 30 Simple Workouts Program</strong></p>
+            <h1>30Workouts</h1>
+            <p>The 30 Simple Workouts Program</p>
         </header>
     )
 
     const footer = (
         <footer>
-            <p>Built by <a href="" target="_blank">Andy Huynh
-            </a><br/>Styled with <a href="https://www.fantacss.smoljames.com" target="_blank">FantaCSS</a></p>
+            <p>Built by <a href="https://github.com/Andy5841" target="_blank" rel="noopener noreferrer">Andy Huynh</a></p>
         </footer>
     )
-    //https//www.andyhuynh.netlify.app
+
     return(
         <>
             {header}
